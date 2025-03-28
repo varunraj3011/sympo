@@ -1,0 +1,94 @@
+.poster img{
+    margin-top: 5%;
+    border:solid black;
+    margin-left: 7%;
+}
+.tittle h3{
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    justify-content:space-around;
+    margin: 20px 30px;   
+}
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: solid red;
+    border-radius: 15%;
+    padding: 15px 20px;
+    background-color: black;
+    max-width: 24%;
+    min-width: 200px;
+    z-index: 1;
+}
+.box-col h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.box-col p{
+    font-size: 15px;
+}
+.box-col a{
+    font-size:13px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+.box-col a :hover{
+    cursor: pointer;
+    color: red;
+}
+/*/
+.box-col img{
+    border-radius: 5%;
+}
+/*/
+@media(max-width:995px){
+    .poster img{
+        margin-top: 15%;
+        margin-left: 0;
+    }
+    .tittle h3{
+        font-weight: bold;
+        font-style: normal;
+        margin-bottom: 10px;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;}
+        .box-row {
+            flex-direction: column; /* Stack columns vertically */
+            align-items: center;
+            justify-content: center;
+          }
+          .box-col {
+            margin-bottom: 20px; /* Add spacing between stacked items */
+            flex: 1; /* Adjust to take full width */
+            max-width: max-content;
+            width: 75%;
+            text-align: center;
+            padding: 20px;
+            border-radius: 15%;
+          }
+          h3 {
+            font-size: 1.5rem; /* Adjust heading size */
+          }
+          img {
+            width: 100%; /* Make images scale to container */
+            height: auto; /* Maintain aspect ratio */
+          }
+        
+
+}
