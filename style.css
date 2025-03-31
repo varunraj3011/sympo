@@ -14,6 +14,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     width: 100%;
@@ -283,6 +284,7 @@ span{
         margin-top: 4rem;
     }
 }
+
 @keyframes scroll{
     from{ 
     opacity:0;
@@ -306,7 +308,7 @@ span{
     to { scale: 1; opacity: 1;}
     
     }
-    .home-content,.poster,.box-col{
+    .home-img,.home-content,.poster,.box-col{
     
     animation: scroll linear;
     animation-timeline: view();

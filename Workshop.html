@@ -42,22 +42,75 @@
             <!--<p>Workshop on Emotional Intelligence and Personal Branding" by Dr. Nandhini Ravichandran
             Dive into an engaging, activity-based session designed to unlock your emotional intelligence and help you craft a powerful personal brand.
             Through interactive exercises and real-world insights, this workshop will empower participants to lead with empathy, communicate with impact, and stand out in any professional space.</p> -->
-            <button class="btn" class="explore">EXPLORE</button>
+            <button class="btn" onclick="show()" >EXPLORE</button>
         </div>
         <div class="box-col">
             <img src="workshop 2.jpg">
             <h3 style="text-transform: uppercase;">transformative technologies for Industries</h3>
             <!--<p>A technical symposium is an event organized by educational institutions to provide a platform for students to showcase their technical skills, innovation, and knowledge. It includes paper presentations, project exhibitions, coding contests, workshops, and technical events, fostering learning, collaboration, and industry interaction.</p> -->
-            <button class="btn"> <a href="https://forms.gle/ayHLmDwLQ3dNvJem8"
-                    style="text-decoration: none;">EXPLORE</a></button>
+            <button class="btn" onclick="show1()" style="text-decoration: none;" >EXPLORE</a></button>
         </div>
-    
+        <div class="pop-overlay"></div>
+        <div class="popupbook" style="margin-left: 13%;">
+                    <h1 style="text-transform: uppercase;">
+                        Emotional Intelligence and Personal Branding
+                    </h1>
+                    <div>
+                    <h2><i class='fa fa-info-circle'></i> Description</h2>
+                    <p>Join Dr. Nandhini Ravichandran for an interactive workshop on Emotional Intelligence and Personal Branding to enhance empathy, communication, and professional impact.</p></div>
+                 <!----   <div class="Coordinator">
+                      <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                      <p></p>
+                      <p>Name 2</p>
+                    </div> <-->
+                    <div class="venue">
+                        <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                        <p>ECE Seminar Hall,Main Block, 2nd floor</p>
+                    </div>
+                    <div class="time">
+                       <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                       <p>Session start : 10A.M</p>
+                    </div>
+                    <form>
+                        <button class="popupbutton" id="apopupbutton"><a href= "https://docs.google.com/forms/d/e/1FAIpQLSfPluAltaWSpFbbS2xPhss41o9a3IT-zMSYm-8HL_itNpoNzA/viewform">Register Now</a></button>
+                        <button class="popupbutton" id="cpopupbutton" onclick="cancel()">Close</button>
+                    </form>
+        </div>
+        <div class="pop-overlay" id="pop-overlay1"></div>
+        <div class="popupbook" style="top: 100px; margin-left: 13%; top: 25%;" id="popupbook1">">
+                    <h1 style="text-transform: uppercase;">
+                        transformative technologies for Industries
+                    </h1>
+                    <div>
+                    <h2><i class='fa fa-info-circle'></i> Description</h2>
+                    <p>Join the Future-Tech Workshop to explore Digital Twin with AR/VR, Additive Manufacturing, and ABC—AI, Blockchain, and Cybersecurity—with expert insights and a Blockchain-enabled certification!.</p></div>
+                 <!----   <div class="Coordinator">
+                      <h2><i class='fa-solid fa-user-group'></i>Coordinator</h2>
+                      <p></p>
+                      <p>Name 2</p>
+                    </div> <-->
+                   <!---- <div class="venue">
+                        <h2><i class='fa-solid fa-location-dot'></i> Venue</h2>
+                        <p>ECE Seminar Hall,Main Block, 2nd floor</p>
+                    </div>-->
+                    <div class="time">
+                       <h2> <i class='fa fa-hourglass'></i> Time</h2>
+                       <p>Slot 1: 10A.M to 11A.M</p>
+                       <p>Slot 2: 11A.M to 12A.M</p>
+                       <p>Slot 3: 2P.M to 3P.M</p>
+                    </div>
+                    <form>
+                      <a href="https://forms.gle/ayHLmDwLQ3dNvJem8" ><button class="popupbutton" id="apopupbutton" id="work2">Register Now</a></button></a>
+                        <button class="popupbutton" id="cpopupbutton" onclick="cancel1()">Close</button>
+                    </form>
+        </div>
         <center>
             <button class="btn"><a href="poster.html">&#8592Back</a></button>
         </center>
         <hr>
         <br>
         <script src="varun.js"></script>
+        <script src="register.js"></script>
 </body>
 
 </html>
