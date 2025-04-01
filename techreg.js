@@ -38,3 +38,12 @@ function cancel2(){
       function cancel5(){
         popupoverlay5.style.display="none"
         popupbox5.style.display="none"}
+
+        var popupoverlay9=document.getElementById("pop9")
+        var popupbox9=document.getElementById("popup9")
+        function show9(){
+            popupoverlay9.style.display="block"
+            popupbox9.style.display="block"}
+        function cancel9(){
+          popupoverlay9.style.display="none"
+          popupbox9.style.display="none"}
